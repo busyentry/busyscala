@@ -2,7 +2,12 @@
 Problem #1: Most frequent word among files.
 
 Source code: 
+	https://github.com/busyentry/busyscala/blob/master/src/com/busyentry/scala/sandbox/MostFrequentWordApp.scala
+	https://github.com/busyentry/busyscala/tree/master/src/com/busyentry/scala/shared
+	
 Input:
+	https://github.com/busyentry/busyscala/tree/master/resources/files
+	
 Output:
 	2016-11-06 23:26:54,120 INFO  [MostFrequentWordApp$] Validating path: ./resources/files 
 	2016-11-06 23:26:54,121 INFO  [MostFrequentWordApp$] Retrieving file names from path: ./resources/files 
@@ -16,7 +21,12 @@ Problem #2: Median of medians.
 Note: This is a simple solution with time complexity of O(N*Log(N)) given the fact of the sorting. I assume this is a evaluation for Scala instead of algorithms, so I wasn't hunting for a rather complex Q(n) solution similar to https://github.com/email4rohit/interview-java-algo/blob/master/MedianOfMedians.java 
 
 Source code: 
+	https://github.com/busyentry/busyscala/blob/master/src/com/busyentry/scala/sandbox/MedianApp.scala
+	https://github.com/busyentry/busyscala/tree/master/src/com/busyentry/scala/shared
+
 Input:
+	https://github.com/busyentry/busyscala/blob/master/resources/files/numbers.txt
+
 Output: 
 	2016-11-07 01:42:01,400 INFO  [MedianApp$] Validating path: ./resources/files/numbers.txt 
 	2016-11-07 01:42:01,400 INFO  [MedianApp$] ***************************************************** 
