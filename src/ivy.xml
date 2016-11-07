@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ivy-module [     
+	<!ENTITY hadoop.version "2.6.0"> 
+	<!ENTITY scala.version "2.11">
+	<!ENTITY spark.version "1.5.1"> 
+]>
+<ivy-module version="2.0">     
+    <info organisation="sbd" module="java"/>    
+    <dependencies>        
+        <dependency org="log4j" name="log4j" rev="1.2.17"/> 
+        <dependency org="junit" name="junit" rev="4.11"/>
+        
+        <dependency org="org.apache.hadoop" name="hadoop-hdfs" rev="&hadoop.version;"/>
+        <dependency org="org.apache.hadoop" name="hadoop-common" rev="&hadoop.version;"/>
+        <dependency org="org.apache.hadoop" name="hadoop-client" rev="&hadoop.version;"/>
+        <dependency org="org.apache.hadoop" name="hadoop-mapreduce-client-app" rev="&hadoop.version;"/>
+        
+        <dependency org="org.apache.spark" name="spark-core_&scala.version;" rev="&spark.version;"/>
+        <dependency org="org.apache.spark" name="spark-streaming_&scala.version;" rev="&spark.version;"/>
+        <dependency org="org.apache.spark" name="spark-sql_&scala.version;" rev="&spark.version;"/>
+        <dependency org="org.apache.spark" name="spark-mllib_&scala.version;" rev="&spark.version;"/>
+        
+        <dependency org="org.scala-lang.modules" name="scala-xml_2.11" rev="1.0.5"/>
+        <dependency org="javax.servlet" name="javax.servlet-api" rev="3.1.0"/>
+   
+   </dependencies>
+</ivy-module>
